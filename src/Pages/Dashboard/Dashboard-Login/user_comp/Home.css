@@ -1,0 +1,161 @@
+/* Container for the entire page */
+.home-container {
+  background: linear-gradient(to right, #1CB5E0, #000046); /* Left-to-right gradient */
+  background-position: center;  /* Keeps the background centered */
+  background-size: cover;       /* Ensures the background covers the entire container */
+  background-attachment: fixed; /* Fixes the background in one position */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar styling */
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.nav-button
+{
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  letter-spacing: 3px;
+  /* background-color: #d4c011; */
+  color: rgb(228, 229, 234);
+  background: rgb(4, 27, 94);
+}
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li {
+  font-size: 18px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Main content section */
+.content {
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+/* Button styling */
+.about-btn {
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.about-btn:hover {
+  background-color: white;
+  color: #000046;
+  transition: 0.3s;
+}
+
+/* Services Section Styling */
+.services {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.services h1 {
+  font-size: 36px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.underline {
+  width: 100px;
+  height: 2px;
+  background-color: black;
+  margin: 10px auto 40px auto;
+}
+
+/* Container for service items */
+.container1,
+.container2 {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 40px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+
+.service i {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.service h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Book Appointment Section */
+#book-appointment {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#book-apt-head {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#book-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#book-btn:hover {
+  background-color: #0056b3;
+}

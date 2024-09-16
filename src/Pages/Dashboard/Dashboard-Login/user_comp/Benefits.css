@@ -1,0 +1,36 @@
+.benefits-container {
+    background-color: #00bfa5;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+  }
+  
+  .benefits-heading {
+    margin-bottom: 20px;
+  }
+  
+  .benefits-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .benefit-item {
+    width: 30%;
+    text-align: left;
+    background-color: white;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .benefit-title {
+    margin-bottom: 10px;
+  }
+  
+  .benefit-description {
+    font-size: 14px;
+  }
+  
